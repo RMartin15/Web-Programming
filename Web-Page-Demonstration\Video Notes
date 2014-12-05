@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+	
+var cycleOne = 0;
+
+function myFunction() {
+	
+    document.getElementById("demo").innerHTML = "Contains Object Literals, which are notations that describe objects; this pushed forward things like the json interchange format.";
+    
+	document.getElementById("demo2").innerHTML = "Contains Inheritance: Which has 2 kinds: Prototypal Inheritance";
+	
+	document.getElementById("demo3").innerHTML = "The Style for Javascript is not subjective. ";
+    
+    document.getElementById("demo4").innerHTML = "Javascript has dynamic objects- Meaning you can change properties of all sorts of objects without tediously and continuously making new classes.";
+    
+   
+}
+</script>
+</head>
+
+<body>
+
+<h1>Javascript - The Good Parts and the Bad Parts</h1>
+
+<p id="demo">Javascript is the most common processed programming language in processors over all other languages in the world.</p>
+
+<p id="demo2">It has the broadest range of programming skills </p>
+
+<p id="demo3">It has a loosely based typing system- This has many advantages.</p>
+
+<p id="demo4">Javascript contains Lambda.</p>
+
+
+
+
+
+<button type="Button" onclick="myFunction()">Click Here to Access Second Half of Notes</button>
+
+</body>
+</html>
